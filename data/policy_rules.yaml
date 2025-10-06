@@ -1,0 +1,5 @@
+require_dns_egress: true
+require_l7_ports: true
+default_namespace_deny: false
+forbid_wildcard_fqdns: false
+allowed_kube_dns_namespace: kube-system
